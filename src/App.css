@@ -1,0 +1,55 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.main-component{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading{
+  padding : 50px;
+  font-family: sans-serif;
+}
+
+.main-segment{
+  width: 100%;
+  text-align: center;
+  height: 75%;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  gap :2rem;
+ align-content: space-around;
+  border : 1px solid red;
+  width : 200px;
+  height: 200px;
+  margin : 12px;
+}
+
+.card-container{
+  display: grid;
+  gap :1rem;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+.text-area{
+  width:90%;
+  margin:0 auto;
+}
+.c1{
+  margin-top:24px;
+
+}
+.nav-bar{
+  width:100;
+  padding: 17px;
+  margin-left:24px;
+  display: flex;
+  flex-direction: row;
+  gap:1rem;
+}
